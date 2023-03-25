@@ -1,0 +1,39 @@
+@media only screen and (max-width: 800px) {
+  html {
+    text-align: center;
+  }
+
+  header ul {
+    display: none;
+  }
+
+  .sect--1 > article h1 {
+    font-size: 45px !important;
+  }
+
+  .sect--2 {
+    height: 100%;
+    padding-bottom: 50px;
+  }
+
+  .sect--3 > h1 {
+    margin: auto !important;
+  }
+
+  .div--Info h3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .discord--details {
+    width: 80%;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  footer h2 {
+    margin: 0;
+  }
+}

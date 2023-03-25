@@ -1,0 +1,9 @@
+@keyframes animateArrow {
+  0% {
+    transform: translateY();
+  }
+
+  50% {
+    transform: translateY(10px);
+  }
+}

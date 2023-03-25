@@ -1,0 +1,19 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li {
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+
+footer li:hover {
+  color: rgb(184, 184, 184);
+}

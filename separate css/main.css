@@ -1,0 +1,46 @@
+:root {
+  --bg: black;
+  --default-txt-cr: white;
+  --fonts: "Open Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--default-txt-cr);
+  font-family: var(--fonts);
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  opacity: 0;
+}
+
+.scroll {
+  opacity: 1;
+  transition: all 1s linear;
+}
+
+::-webkit-scrollbar {
+  background-color: #111111;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #202020;
+  border-radius: 5px;
+}
